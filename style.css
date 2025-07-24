@@ -1,0 +1,55 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+body{
+     height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #B0E0E6;
+}
+
+.main{
+    background-color: #fff;
+    width: 50%;
+    height: 80%;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:40px;
+    padding:10px;
+}
+
+h1{
+    margin-top:10px;
+    font-size: 3rem;
+}
+
+#cidade{
+    padding:20px;
+    border: 2px solid #DCDCDC;
+    border-radius: 5px;
+    font-size: 1rem;
+    
+}
+
+#buscar{
+    padding:20px;
+    border-radius: 5px;
+    border-style: none;
+    width: 12vh;
+    font-size: 1rem;
+    background-color: #B0E0E6;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+#buscar:hover{
+    transform: scale(1.1); 
+}

@@ -13,7 +13,7 @@ lottie.loadAnimation({
 const buscar = document.getElementById("buscar")
 const res = document.getElementById("res")
 const cidade = document.getElementById("cidade")
-const apiKey = process.env.KEYAPI; 
+const apiKey = "API_KEY_PLACEHOLDER";
 
 console.log(apiKey)
 //funçẽs

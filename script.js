@@ -15,7 +15,7 @@ const res = document.getElementById("res")
 const cidade = document.getElementById("cidade")
 const apiKey = process.env.KEYAPI; 
 
-
+console.log(apiKey)
 //funçẽs
 
 

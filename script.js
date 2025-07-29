@@ -15,7 +15,6 @@ const res = document.getElementById("res")
 const cidade = document.getElementById("cidade")
 const apiKey = "API_KEY_PLACEHOLDER";
 
-console.log(apiKey)
 //funçẽs
 
 

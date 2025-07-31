@@ -24,4 +24,4 @@ Lottie Web (para animações)
 Objetivo:
 Este projeto foi desenvolvido com o objetivo de praticar requisições HTTP, manipulação de dados com JavaScript e integração com APIs externas, além de treinar a estruturação de páginas web responsivas e interativas.
 
-obs(mesmo sabendo não ser de boa pratica deixei a chave da api diretamente no codigo por se tratar de um projeto pessoal, mas pretendo melhorar isso)
+obs(mesmo sabendo não ser de boa pratica deixei a chave da api diretamente no codigo por se tratar de um projeto pessoal, mas pretendo melhorar)

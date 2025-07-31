@@ -62,8 +62,13 @@ const mostrarTempo = async (cidadeValor)=>{ //pega os dados retornados pela fun�
   //sensação termica
   let sensTermica = document.createElement("p")
   sensTermica.classList.add("sensTermica")
-  sensTermica.textContent = `Sensação termica:  ${dados.main.feels_like}`
+  sensTermica.textContent = `Sensação termica:  ${dados.main.feels_like} C°`
 
+  const iconTermic = document.createElement("img")
+  iconTermic.classList.add("iconTer")
+  iconTermic.src ="img/termometro.png"
+  
+  sensTermica.appendChild(iconTermic)
 
 
 
